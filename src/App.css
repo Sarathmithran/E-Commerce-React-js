@@ -1,0 +1,79 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color:white;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.offer-prod-div{
+  width: 300px;
+  /* border-radius: 5px; */
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0px 0px 5px gray;
+  /* transition: transform 0.3s ease; */
+  transition: transform 0.3s ease;
+}
+.offer-prod-div:hover{
+  /* transform: scale(1.1); */
+  transform: translateY(20px);
+}
+.offer-description{
+  font-size: small;
+  font-weight: 200;
+  color: rgb(73, 70, 70);
+}
+.offer-price{
+  font-size: x-large;
+  font-weight: 800;
+  color: black;
+}
+.offer-rating{
+  color: blue;
+  font-size: small;
+}
+
+/* active class */
+.navbar-nav .nav-item .active{
+  color: white;
+  /* text-decoration: 1px underline; */
+}
+.footer-link{
+  text-decoration: none;
+  color: white;
+}
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+/*cart icon*/
+.cart-icon{
+  color:white;
+  font-size:small;
+  padding:0px 4px 0px 4px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+/* .ATC-btn:hover{
+  background-color: gold;
+  border: gold;
+} */
